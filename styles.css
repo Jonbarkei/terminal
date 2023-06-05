@@ -1,0 +1,35 @@
+body {
+  font-family: monospace;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.terminal {
+  padding: 10px;
+}
+
+.terminal pre {
+  margin: 0;
+}
+
+.terminal input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+}
+
+.terminal input:focus {
+  outline: none;
+}
+
+.terminal input::placeholder {
+  color: #888;
+}
+
+.terminal input:focus::placeholder {
+  color: #aaa;
+}
