@@ -1,4 +1,4 @@
- output.innerHTML += "HEllO, I AM JON'S HELPER.\n";
+
 
 document.addEventListener("DOMContentLoaded", function() {
   const output = document.getElementById("output");
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
       executeCommand(command);
     }
   });
-
+ output.innerHTML += "HEllO, I AM JON'S HELPER.\n";
   function executeCommand(command) {
     // Your logic for executing commands goes here
     // For this example, let's just echo the entered command
