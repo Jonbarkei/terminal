@@ -14,5 +14,22 @@ document.addEventListener("DOMContentLoaded", function() {
     // Your logic for executing commands goes here
     // For this example, let's just echo the entered command
     output.innerHTML += "> " + command + "\n";
+    function executeCommand(command) {
+  output.innerHTML += "> " + command + "\n";
+  
+  // Check for specific commands
+  if (command.startsWith("weather")) {
+    const location = command.split(" ")[1];
+    if (location) {
+      getWeather(location);
+    } else {
+      output.innerHTML += "Please provide a location.\n";
+    }
+  } else {
+    output.innerHTML += "Command not recognized.\n";
+  }
+}
+
   }
 });
+
