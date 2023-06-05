@@ -1,5 +1,4 @@
 
-
 document.addEventListener("DOMContentLoaded", function() {
   const output = document.getElementById("output");
   const commandInput = document.getElementById("command");
