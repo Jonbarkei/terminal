@@ -1,3 +1,5 @@
+ output.innerHTML += "HEllO, I AM JON'S HELPER.\n";
+
 document.addEventListener("DOMContentLoaded", function() {
   const output = document.getElementById("output");
   const commandInput = document.getElementById("command");
@@ -18,12 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
   output.innerHTML += "> " + command + "\n";
   
   // Check for specific commands
-  if (command.startsWith("weather")) {
-    const location = command.split(" ")[1];
-    if (location) {
-      getWeather(location);
-    } else {
-      output.innerHTML += "Please provide a location.\n";
+  if (command.startsWith("hi")) {
+      output.innerHTML += "HELLO.\n";
     }
   } else {
     output.innerHTML += "Command not recognized.\n";
