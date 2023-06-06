@@ -31,7 +31,8 @@ document.addEventListener("DOMContentLoaded", function() {
     output.innerHTML += line + "\n"; 
   }
   
-writeOutput ("Welcome to the Jon zone");
+writeOutput ("Welcome to the Jon zone\n");
+
 writeOutput ("::::::'##:");
 writeOutput (":::::: ##:");
 writeOutput (":::::: ##:");
@@ -40,4 +41,5 @@ writeOutput ("'##::: ##:");
 writeOutput (" ##::: ##:");
 writeOutput (". ######::");
 writeOutput (":......:::");
+  writeOutput (">");  
 });
