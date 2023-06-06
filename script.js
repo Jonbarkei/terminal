@@ -30,6 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
          case '/name':
         writeOutput("Hi, I am Bogo Command. I am here to help you master.");
         break;
+          case '/clear':
+         location.reload()
+        break;
       default:
         break;
     }
