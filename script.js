@@ -21,6 +21,15 @@ document.addEventListener("DOMContentLoaded", function() {
       case 'dad':
         writeOutput("dad is awesome dude!");
         break;
+        case '/list':
+        writeOutput("list of commands, /list, /name, /version, /whoami, /links  More to come!");
+        break;
+        case '/links':
+        writeOutput("https://barkei.lol/   https://jon.barkei.lol/   https://music.barkei.lol/   https://blog.barkei.lol/");
+        break;
+         case 'name':
+        writeOutput("Hi, I am Bogo Command. I am here to help you master.");
+        break;
       default:
         break;
     }
