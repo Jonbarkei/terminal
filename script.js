@@ -40,6 +40,6 @@ writeOutput (":::::: ##:");
 writeOutput ("'##::: ##:");
 writeOutput (" ##::: ##:");
 writeOutput (". ######::");
-writeOutput (":......:::");
-  writeOutput (">");  
+writeOutput (":......:::\n");
+
 });
