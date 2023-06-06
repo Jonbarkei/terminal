@@ -15,6 +15,7 @@ body {
 }
 
 .terminal input {
+  font-family: monospace;
   width: 100%;
   border: none;
   background-color: transparent;
