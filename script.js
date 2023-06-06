@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         case '/links':
         writeOutput("https://barkei.lol/   https://jon.barkei.lol/   https://music.barkei.lol/   https://blog.barkei.lol/");
         break;
-         case 'name':
+         case '/name':
         writeOutput("Hi, I am Bogo Command. I am here to help you master.");
         break;
       default:
