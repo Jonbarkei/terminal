@@ -15,4 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // For this example, let's just echo the entered command
     output.innerHTML += "> " + command + "\n";
   }
+  
+  function writeOutput(output) {
+    output.innerHTML += output + "\n"; 
+  }
+  
+  writeOutput ("Welcome to the Jon zone");
 });
