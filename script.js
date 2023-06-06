@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function() {
     output.innerHTML += "> " + command + "\n";
   }
   
-  function writeOutput(output) {
-    output.innerHTML += output + "\n"; 
+  function writeOutput(line) {
+    output.innerHTML += line + "\n"; 
   }
   
   writeOutput ("Welcome to the Jon zone");
