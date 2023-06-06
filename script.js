@@ -14,6 +14,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Your logic for executing commands goes here
     // For this example, let's just echo the entered command
     output.innerHTML += "> " + command + "\n";
+    switch(command.ToLower()){
+      case 'hi':
+        writeOutput("Hi back to you");
+        break;
+      case 'dad':
+        writeOutput("dad is awesome dude!");
+        break;
+      default:
+        break;
+    }
+    
   }
   
   function writeOutput(line) {
