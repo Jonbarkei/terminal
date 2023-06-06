@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
     output.innerHTML += line + "\n"; 
   }
   
-writeOutput ("Welcome to the Jon zone\n");
+writeOutput ("Welcome to the Jon zone. The best place on earth. (use different commands to run. (Use /list)\n");
 
 writeOutput ("::::::'##:");
 writeOutput (":::::: ##:");
