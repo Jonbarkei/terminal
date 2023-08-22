@@ -15,10 +15,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // For this example, let's just echo the entered command
     output.innerHTML += "> " + command + "\n";
     switch(command.toLowerCase()){
-      case 'hi':
+      case '/hi':
         writeOutput("Hi back to you");
         break;
-      case 'dad':
+      case '/dad':
         writeOutput("dad is awesome dude!");
         break;
         case '/list':
